@@ -1,4 +1,4 @@
-mod number_spiral;
+mod trailing_zeros;
 
 #[cfg(test)]
 mod tests {
@@ -7,7 +7,7 @@ mod tests {
 
     #[test]
     fn test() {
-        let result = number_spiral::main();
-        assert_eq!(result, [8, 1, 15]);
+        let result = trailing_zeros::main();
+        assert_eq!(result, ());
     }
 }
