@@ -1,4 +1,4 @@
-mod trailing_zeros;
+mod creating_strings;
 
 #[cfg(test)]
 mod tests {
@@ -7,7 +7,7 @@ mod tests {
 
     #[test]
     fn test() {
-        let result = trailing_zeros::main();
-        assert_eq!(result, ());
+        let result = creating_strings::main();
+        assert!(result != ());
     }
 }
