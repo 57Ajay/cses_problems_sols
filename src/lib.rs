@@ -1,4 +1,4 @@
-mod creating_strings;
+mod apple_division;
 
 #[cfg(test)]
 mod tests {
@@ -7,7 +7,7 @@ mod tests {
 
     #[test]
     fn test() {
-        let result = creating_strings::main();
+        let result = apple_division::main();
         assert!(result != ());
     }
 }
