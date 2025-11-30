@@ -1,4 +1,4 @@
-mod apple_division;
+mod chessboard_and_queens;
 
 #[cfg(test)]
 mod tests {
@@ -7,7 +7,7 @@ mod tests {
 
     #[test]
     fn test() {
-        let result = apple_division::main();
+        let result = chessboard_and_queens::main();
         assert!(result != ());
     }
 }
