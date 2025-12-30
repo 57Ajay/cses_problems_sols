@@ -1,4 +1,4 @@
-mod chessboard_and_queens;
+mod raab_game_1;
 
 #[cfg(test)]
 mod tests {
@@ -7,7 +7,7 @@ mod tests {
 
     #[test]
     fn test() {
-        let result = chessboard_and_queens::main();
+        let result = raab_game_1::main();
         assert!(result != ());
     }
 }
