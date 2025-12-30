@@ -89,4 +89,3 @@ fn mod_pow(mut base: usize, mut exp: usize) -> usize {
 
     result
 }
-
