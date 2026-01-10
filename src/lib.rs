@@ -1,4 +1,4 @@
-mod raab_game_1;
+mod grid_coloring_1;
 
 #[cfg(test)]
 mod tests {
@@ -7,7 +7,7 @@ mod tests {
 
     #[test]
     fn test() {
-        let result = raab_game_1::main();
-        assert!(result != ());
+        let result_ = grid_coloring_1::main();
+        assert!(result_ != ());
     }
 }
