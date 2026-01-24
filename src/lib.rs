@@ -1,4 +1,4 @@
-mod grid_coloring_1;
+mod string_reorder;
 
 #[cfg(test)]
 mod tests {
@@ -7,7 +7,7 @@ mod tests {
 
     #[test]
     fn test() {
-        let result_ = grid_coloring_1::main();
+        let result_ = string_reorder::main();
         assert!(result_ != ());
     }
 }
