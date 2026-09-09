@@ -4,11 +4,11 @@ pub mod dsap;
 #[allow(unused)]
 #[cfg(test)]
 mod tests {
-    use crate::cses::sorting_and_searching::ferris_wheel;
+    use crate::cses::sorting_and_searching::concert_tickets;
 
     #[test]
     fn test_ferris_wheel() {
-        ferris_wheel::main();
+        concert_tickets::main();
     }
     // use crate::cses::sorting_and_searching::apartments;
     //
